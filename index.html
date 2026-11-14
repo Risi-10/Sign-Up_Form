@@ -18,18 +18,56 @@
             </div>
         </div>
         <div class="Right">
-            <form action="">
-                <div>
-                    <p>This is not a real online service! You know you need something like this in your real life to help you realise your deepest dreams.</p>
-                    <p>Sign up now to get started.</p>
-                    <p>You know you want to.</p>
-                </div>
-                <div>
-                    <p>Let's do this.</p>
+            <div class="Description">
+                <p>This is not a real online service! You know you need something like this in your real life to help you realise your deepest dreams.
+                Sign up now to get started.</p>
+                <p>You know you want to.</p>
+            </div>
+            <div class="Form">
+                <p>Let's do this!</p>
+                <form id="myForm" action="">
+                
+                    <div>
+                        <div>
+                            <label for="name">FIRST NAME</label>
+                            <input type="text" id="name" name="name">
+                        </div>
 
-                </div>
-                <div></div>
-            </form>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="text" id="password" name="password" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName">    
+                        </div>
+
+                        <div>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber">
+                        </div>
+                        
+                        <div>
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="text" id="confirmPassword" name="confirmPassword" required>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="Submit">
+                <button type="submit" form="myForm">Create Account</button>
+
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>
