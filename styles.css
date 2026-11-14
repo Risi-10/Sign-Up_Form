@@ -135,10 +135,11 @@ input{
     outline: none;
 }
 
-input:focus{
-    border: 1px solid blue;
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 0 0 4px #6b8ed6;
 }
 
-input:invalid {
+input:user-invalid {
   border: 1px solid red;
 }
